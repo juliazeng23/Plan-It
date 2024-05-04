@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE695D9F2BE5CFA800C30626 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE695D9E2BE5CFA800C30626 /* AppDelegate.swift */; };
+		FE695DA12BE5CFA800C30626 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE695DA02BE5CFA800C30626 /* SceneDelegate.swift */; };
+		FE695DA32BE5CFA800C30626 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE695DA22BE5CFA800C30626 /* ViewController.swift */; };
+		FE695DA62BE5CFA800C30626 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FE695DA52BE5CFA800C30626 /* Base */; };
+		FE695DA82BE5CFAA00C30626 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE695DA72BE5CFAA00C30626 /* Assets.xcassets */; };
+		FE695DAB2BE5CFAA00C30626 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FE695DAA2BE5CFAA00C30626 /* Base */; };
+		FE695DB82BE5D02700C30626 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE695DB72BE5D02700C30626 /* Profile.swift */; };
+		FE695DBA2BE5D05B00C30626 /* SelectDays.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE695DB92BE5D05B00C30626 /* SelectDays.swift */; };
+		FE695DBC2BE5D07300C30626 /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE695DBB2BE5D07300C30626 /* Events.swift */; };
+		FE695DBE2BE5D08E00C30626 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE695DBD2BE5D08E00C30626 /* TabViewController.swift */; };
+		FE695DC02BE5D09D00C30626 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE695DBF2BE5D09D00C30626 /* Login.swift */; };
+		FE695DC22BE5D0C000C30626 /* EventCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE695DC12BE5D0C000C30626 /* EventCollectionViewCell.swift */; };
+		FE695DC42BE5D0C900C30626 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE695DC32BE5D0C900C30626 /* Event.swift */; };
+		FE695DC62BE5D0DF00C30626 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE695DC52BE5D0DF00C30626 /* UIColor+Extension.swift */; };
+		FE695DC82BE5D0F000C30626 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE695DC72BE5D0F000C30626 /* NetworkManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FE695D9B2BE5CFA800C30626 /* Plan-It.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Plan-It.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE695D9E2BE5CFA800C30626 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE695DA02BE5CFA800C30626 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FE695DA22BE5CFA800C30626 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE695DA52BE5CFA800C30626 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE695DA72BE5CFAA00C30626 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE695DAA2BE5CFAA00C30626 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE695DAC2BE5CFAA00C30626 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE695DB72BE5D02700C30626 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		FE695DB92BE5D05B00C30626 /* SelectDays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectDays.swift; sourceTree = "<group>"; };
+		FE695DBB2BE5D07300C30626 /* Events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
+		FE695DBD2BE5D08E00C30626 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		FE695DBF2BE5D09D00C30626 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		FE695DC12BE5D0C000C30626 /* EventCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCollectionViewCell.swift; sourceTree = "<group>"; };
+		FE695DC32BE5D0C900C30626 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		FE695DC52BE5D0DF00C30626 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		FE695DC72BE5D0F000C30626 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE695D982BE5CFA800C30626 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE695D922BE5CFA800C30626 = {
+			isa = PBXGroup;
+			children = (
+				FE695D9D2BE5CFA800C30626 /* Plan-It */,
+				FE695D9C2BE5CFA800C30626 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE695D9C2BE5CFA800C30626 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE695D9B2BE5CFA800C30626 /* Plan-It.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE695D9D2BE5CFA800C30626 /* Plan-It */ = {
+			isa = PBXGroup;
+			children = (
+				FE695DB62BE5D00900C30626 /* Networking */,
+				FE695DB52BE5D00500C30626 /* Extensions */,
+				FE695DB42BE5D00000C30626 /* Models */,
+				FE695DB32BE5CFFB00C30626 /* Views */,
+				FE695DB22BE5CFEC00C30626 /* Controllers */,
+				FE695D9E2BE5CFA800C30626 /* AppDelegate.swift */,
+				FE695DA02BE5CFA800C30626 /* SceneDelegate.swift */,
+				FE695DA22BE5CFA800C30626 /* ViewController.swift */,
+				FE695DA42BE5CFA800C30626 /* Main.storyboard */,
+				FE695DA72BE5CFAA00C30626 /* Assets.xcassets */,
+				FE695DA92BE5CFAA00C30626 /* LaunchScreen.storyboard */,
+				FE695DAC2BE5CFAA00C30626 /* Info.plist */,
+			);
+			path = "Plan-It";
+			sourceTree = "<group>";
+		};
+		FE695DB22BE5CFEC00C30626 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FE695DB72BE5D02700C30626 /* Profile.swift */,
+				FE695DB92BE5D05B00C30626 /* SelectDays.swift */,
+				FE695DBB2BE5D07300C30626 /* Events.swift */,
+				FE695DBD2BE5D08E00C30626 /* TabViewController.swift */,
+				FE695DBF2BE5D09D00C30626 /* Login.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FE695DB32BE5CFFB00C30626 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FE695DC12BE5D0C000C30626 /* EventCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FE695DB42BE5D00000C30626 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FE695DC32BE5D0C900C30626 /* Event.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FE695DB52BE5D00500C30626 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FE695DC52BE5D0DF00C30626 /* UIColor+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FE695DB62BE5D00900C30626 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				FE695DC72BE5D0F000C30626 /* NetworkManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE695D9A2BE5CFA800C30626 /* Plan-It */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE695DAF2BE5CFAA00C30626 /* Build configuration list for PBXNativeTarget "Plan-It" */;
+			buildPhases = (
+				FE695D972BE5CFA800C30626 /* Sources */,
+				FE695D982BE5CFA800C30626 /* Frameworks */,
+				FE695D992BE5CFA800C30626 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Plan-It";
+			productName = "Plan-It";
+			productReference = FE695D9B2BE5CFA800C30626 /* Plan-It.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE695D932BE5CFA800C30626 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					FE695D9A2BE5CFA800C30626 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = FE695D962BE5CFA800C30626 /* Build configuration list for PBXProject "Plan-It" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE695D922BE5CFA800C30626;
+			productRefGroup = FE695D9C2BE5CFA800C30626 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE695D9A2BE5CFA800C30626 /* Plan-It */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE695D992BE5CFA800C30626 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE695DA82BE5CFAA00C30626 /* Assets.xcassets in Resources */,
+				FE695DAB2BE5CFAA00C30626 /* Base in Resources */,
+				FE695DA62BE5CFA800C30626 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE695D972BE5CFA800C30626 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE695DC82BE5D0F000C30626 /* NetworkManager.swift in Sources */,
+				FE695DBC2BE5D07300C30626 /* Events.swift in Sources */,
+				FE695DA32BE5CFA800C30626 /* ViewController.swift in Sources */,
+				FE695DB82BE5D02700C30626 /* Profile.swift in Sources */,
+				FE695DC62BE5D0DF00C30626 /* UIColor+Extension.swift in Sources */,
+				FE695D9F2BE5CFA800C30626 /* AppDelegate.swift in Sources */,
+				FE695DC42BE5D0C900C30626 /* Event.swift in Sources */,
+				FE695DC22BE5D0C000C30626 /* EventCollectionViewCell.swift in Sources */,
+				FE695DBA2BE5D05B00C30626 /* SelectDays.swift in Sources */,
+				FE695DBE2BE5D08E00C30626 /* TabViewController.swift in Sources */,
+				FE695DA12BE5CFA800C30626 /* SceneDelegate.swift in Sources */,
+				FE695DC02BE5D09D00C30626 /* Login.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE695DA42BE5CFA800C30626 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE695DA52BE5CFA800C30626 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE695DA92BE5CFAA00C30626 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE695DAA2BE5CFAA00C30626 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE695DAD2BE5CFAA00C30626 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE695DAE2BE5CFAA00C30626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE695DB02BE5CFAA00C30626 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Plan-It/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.Plan-It";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE695DB12BE5CFAA00C30626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Plan-It/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.Plan-It";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE695D962BE5CFA800C30626 /* Build configuration list for PBXProject "Plan-It" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE695DAD2BE5CFAA00C30626 /* Debug */,
+				FE695DAE2BE5CFAA00C30626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE695DAF2BE5CFAA00C30626 /* Build configuration list for PBXNativeTarget "Plan-It" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE695DB02BE5CFAA00C30626 /* Debug */,
+				FE695DB12BE5CFAA00C30626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE695D932BE5CFA800C30626 /* Project object */;
+}
