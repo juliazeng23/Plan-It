@@ -8,7 +8,7 @@
 import Foundation
 
 struct Event: Codable {
-    let id: String
+    let id: Int
     let description: String
     let users: [String]
 }

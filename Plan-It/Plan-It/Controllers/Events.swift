@@ -12,12 +12,20 @@ class Events: UIViewController {
     
     private var collectionView: UICollectionView!
     private let pageTitle = UILabel()
+    private let id = "0"
+    private var user = User(
+        id: 0,
+        name: "",
+        username: "",
+        available_times: [],
+        events_joined: []
+    )
     
     private var events: [Event] = [
-        Event(id: "0", description: "Brunch at Milkstand", users: ["jwz28", "cd494"]),
-        Event(id: "1", description: "E-Board Meeting", users: ["jwz28", "eyh29"]),
-        Event(id: "2", description: "Hack Challenge Meeting", users: ["jwz28", "cd494", "wbz3"]),
-        Event(id: "3", description: "Banquet", users: ["jwz28"])
+        Event(id: 0, description: "Brunch at Milkstand", users: ["jwz28", "cd494"]),
+        Event(id: 4, description: "E-Board Meeting", users: ["jwz28", "eyh29"]),
+        Event(id: 2, description: "Hack Challenge Meeting", users: ["jwz28", "cd494", "wbz3"]),
+        Event(id: 3, description: "Banquet", users: ["jwz28"])
     ]
     
     override func viewDidLoad() {
@@ -30,6 +38,14 @@ class Events: UIViewController {
         
         setupTitle()
         setupCollectionView()
+    }
+    
+    @objc func fetchUser() {
+        NetworkManager.shared.getUser(id: self.id, completion: {[weak self] user in
+            guard let self  = self else { return }
+            
+            self.user = user
+        })
     }
     
     private func setupCollectionView() {

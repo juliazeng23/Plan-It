@@ -12,6 +12,14 @@ class Profile: UIViewController {
     private let name = UILabel()
     private let username  = UILabel()
     private let editAvailabilityButton = UIButton()
+    private let id = "1"
+    private var userr = User(
+        id: 0,
+        name: "",
+        username: "",
+        available_times: [],
+        events_joined: []
+    )
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,13 +28,24 @@ class Profile: UIViewController {
         
         title = "Profile"
         
-        setupName()
-        setupUsername()
+        fetchUser()
+//        setupName()
+//        setupUsername()
         setupEditAvailabilityButton()
     }
     
+    @objc func fetchUser() {
+        NetworkManager.shared.getUser(id: id, completion: {[weak self] user in
+            guard let self  = self else { return }
+            
+            self.userr = user
+            setupName()
+            setupUsername()
+        })
+    }
+    
     private func setupName() {
-        name.text = "Ezra Cornell"
+        name.text = userr.name
         name.font = .systemFont(ofSize: 32, weight: .semibold)
         name.textColor = UIColor.black
         
@@ -42,7 +61,7 @@ class Profile: UIViewController {
     }
     
     private func setupUsername() {
-        username.text = "ec123"
+        username.text = userr.username
         username.font = .systemFont(ofSize: 16)
         username.textColor = UIColor.gray
         

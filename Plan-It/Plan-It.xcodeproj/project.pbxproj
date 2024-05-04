@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE4002672BE5DA8E00FEF20E /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = FE4002662BE5DA8E00FEF20E /* Alamofire */; };
+		FE4002692BE5DA8E00FEF20E /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = FE4002682BE5DA8E00FEF20E /* AlamofireDynamic */; };
+		FE40026B2BE5DAD500FEF20E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE40026A2BE5DAD500FEF20E /* User.swift */; };
+		FE40026D2BE5E3A200FEF20E /* EditSunday.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE40026C2BE5E3A200FEF20E /* EditSunday.swift */; };
+		FE40026F2BE5E3C500FEF20E /* TimeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE40026E2BE5E3C500FEF20E /* TimeCollectionViewCell.swift */; };
 		FE695D9F2BE5CFA800C30626 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE695D9E2BE5CFA800C30626 /* AppDelegate.swift */; };
 		FE695DA12BE5CFA800C30626 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE695DA02BE5CFA800C30626 /* SceneDelegate.swift */; };
 		FE695DA32BE5CFA800C30626 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE695DA22BE5CFA800C30626 /* ViewController.swift */; };
@@ -25,6 +30,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FE40026A2BE5DAD500FEF20E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FE40026C2BE5E3A200FEF20E /* EditSunday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditSunday.swift; sourceTree = "<group>"; };
+		FE40026E2BE5E3C500FEF20E /* TimeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCollectionViewCell.swift; sourceTree = "<group>"; };
 		FE695D9B2BE5CFA800C30626 /* Plan-It.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Plan-It.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE695D9E2BE5CFA800C30626 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE695DA02BE5CFA800C30626 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE4002672BE5DA8E00FEF20E /* Alamofire in Frameworks */,
+				FE4002692BE5DA8E00FEF20E /* AlamofireDynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +108,7 @@
 				FE695DBB2BE5D07300C30626 /* Events.swift */,
 				FE695DBD2BE5D08E00C30626 /* TabViewController.swift */,
 				FE695DBF2BE5D09D00C30626 /* Login.swift */,
+				FE40026C2BE5E3A200FEF20E /* EditSunday.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -106,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				FE695DC12BE5D0C000C30626 /* EventCollectionViewCell.swift */,
+				FE40026E2BE5E3C500FEF20E /* TimeCollectionViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -114,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				FE695DC32BE5D0C900C30626 /* Event.swift */,
+				FE40026A2BE5DAD500FEF20E /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -150,6 +163,10 @@
 			dependencies = (
 			);
 			name = "Plan-It";
+			packageProductDependencies = (
+				FE4002662BE5DA8E00FEF20E /* Alamofire */,
+				FE4002682BE5DA8E00FEF20E /* AlamofireDynamic */,
+			);
 			productName = "Plan-It";
 			productReference = FE695D9B2BE5CFA800C30626 /* Plan-It.app */;
 			productType = "com.apple.product-type.application";
@@ -178,6 +195,9 @@
 				Base,
 			);
 			mainGroup = FE695D922BE5CFA800C30626;
+			packageReferences = (
+				FE4002652BE5DA8E00FEF20E /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = FE695D9C2BE5CFA800C30626 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -205,9 +225,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE40026B2BE5DAD500FEF20E /* User.swift in Sources */,
 				FE695DC82BE5D0F000C30626 /* NetworkManager.swift in Sources */,
 				FE695DBC2BE5D07300C30626 /* Events.swift in Sources */,
 				FE695DA32BE5CFA800C30626 /* ViewController.swift in Sources */,
+				FE40026F2BE5E3C500FEF20E /* TimeCollectionViewCell.swift in Sources */,
 				FE695DB82BE5D02700C30626 /* Profile.swift in Sources */,
 				FE695DC62BE5D0DF00C30626 /* UIColor+Extension.swift in Sources */,
 				FE695D9F2BE5CFA800C30626 /* AppDelegate.swift in Sources */,
@@ -217,6 +239,7 @@
 				FE695DBE2BE5D08E00C30626 /* TabViewController.swift in Sources */,
 				FE695DA12BE5CFA800C30626 /* SceneDelegate.swift in Sources */,
 				FE695DC02BE5D09D00C30626 /* Login.swift in Sources */,
+				FE40026D2BE5E3A200FEF20E /* EditSunday.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +460,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FE4002652BE5DA8E00FEF20E /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FE4002662BE5DA8E00FEF20E /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FE4002652BE5DA8E00FEF20E /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		FE4002682BE5DA8E00FEF20E /* AlamofireDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FE4002652BE5DA8E00FEF20E /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = AlamofireDynamic;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FE695D932BE5CFA800C30626 /* Project object */;
 }

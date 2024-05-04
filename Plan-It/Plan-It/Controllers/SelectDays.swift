@@ -55,6 +55,8 @@ class SelectDays: UIViewController {
             Sunday.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -32),
             Sunday.heightAnchor.constraint(equalToConstant: 56)
         ])
+        
+        Sunday.addTarget(self, action: #selector(pushEditSunday), for: .touchUpInside)
     }
     
     private func setupOtherDays(button: UIButton, text: String, previousButton: UIButton) {
@@ -72,5 +74,10 @@ class SelectDays: UIViewController {
             button.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -32),
             button.heightAnchor.constraint(equalToConstant: 56)
         ])
+    }
+    
+    @objc private func pushEditSunday() {
+        let editSunday = EditSunday()
+        navigationController?.pushViewController(editSunday, animated: true)
     }
 }
